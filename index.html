@@ -110,7 +110,16 @@
             margin: 0 0.5rem;
         }
 
-        .cta-button:hover {
+        .cta-button.contact-btn {
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			color: white;
+		}
+
+		.cta-button.contact-btn:hover {
+			background: linear-gradient(135deg, #5568d3 0%, #65408b 100%);
+		}
+		
+		.cta-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 10px 25px rgba(0,0,0,0.2);
         }
@@ -431,40 +440,26 @@
 
     <section id="contact">
         <h2>Get In Touch</h2>
-        <form class="contact-form">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-            </div>
-            <button type="submit" class="submit-btn">Send Message</button>
-        </form>
+        <!-- Google Form Button Link -->
+        <div style="text-align: center; margin: 3rem 0;">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScbYPa8f8BW3kZwQAvmaiClAHxzfmpnvFp0Fw5f4H_iFU5s_A/viewform?usp=sharing&ouid=102032234851186880078" target="_blank" class="cta-button  contact-btn">Fill Contact Form</a>
+            <p style="margin-top: 1rem; color: #666;">Click the button above to fill out our contact form</p>
+        </div>
     </section>
     </div>
 
     <footer>
         <div class="social-links">
-            <a href="https://linkedin.com/in/your-profile" target="_blank">
+            <a href="https://www.linkedin.com/in/nikhil-kamlapure-4847b1165/" target="_blank">
                 <span>💼</span>
-                <span>linkedin.com/in/nikhil-kamlapure-4847b1165</span>
+                <span>linkedin.com/in/nikhil-kamlapure</span>
             </a>
             <a href="mailto:your.email@example.com">
                 <span>📧</span>
                 <span>nikhil.kamlapure1@gmail.com</span>
             </a>
         </div>
-        <p>&copy; 2024 Nikhil Kamlapure. All rights reserved.</p>
+        <p>&copy; 2025 Nikhil Kamlapure. All rights reserved.</p>
     </footer>
 
     <script>
